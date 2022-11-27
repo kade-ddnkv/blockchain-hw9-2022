@@ -1,0 +1,9 @@
+в папке contract:
+yarn hardhat run scripts/deployGame.js --network goerli // деплой игры
+поменять адрес контракта в OnlyRockPlayer.sol
+yarn hardhat run scripts/deployOnlyRockPlayer.js --network goerli // деплой контракта для межконтрактного взаимодействия
+
+в папке web3_test:
+установить правильные адреса в .env
+установить правильные abi в соотв. файлах
+node playingWithContract.js // запуск теста для проверки корретности работы OnlyRockPlayer

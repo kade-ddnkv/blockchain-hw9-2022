@@ -1,0 +1,6 @@
+contract/node_modules/
+contract/.env
+contract/artifacts/
+contract/cache/
+web3_test/node_modules/
+web3_test/.env
